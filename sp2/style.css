@@ -1,0 +1,15 @@
+        div{
+            background: lightsalmon;
+            margin: 10px
+        }
+        p{
+            background: green;
+        }
+        #ostatni{
+            padding: 100px;
+        }
+        .duzy{
+            font-size: 30px
+        }
+        /* link zewnętrzny utworzony poprzez kliknięcie ctrl + link
+        i utworzenie nowego pliku */
