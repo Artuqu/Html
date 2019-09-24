@@ -1,3 +1,7 @@
+        body {
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif
+        }
         div{
             background: lightsalmon;
             margin: 10px
@@ -12,4 +16,5 @@
             font-size: 30px
         }
         /* link zewnętrzny utworzony poprzez kliknięcie ctrl + link
-        i utworzenie nowego pliku */
+        i utworzenie nowego pliku. Styl bardziej określony jest ważniejszy
+        classa jest wazniejsza od body */
