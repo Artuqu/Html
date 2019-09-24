@@ -1,0 +1,112 @@
+<!DOCTYPE html> <!-- mówi w jakiej wersji html piszemy. Obecna to html 5.0 -->
+<html lang="en"> 
+<head> <!--dodatkowe rzeczy dla naszej strony--> 
+    <meta charset="UTF-8"> <!--charset kodowanie znaków 8 bitów. Jeżeli nieznany język to pojawią się krzaczki-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- to ważna linijka dla urządzeń mobilnych-->
+    <title>Document</title> <!--widać ten napis na karcie strony. Zalecenia google: każda podstrona ma mieć unikalny tytuł
+    2. Tytuł ma zawsze odzwierciedlać zawartość strony-->
+    <meta name= "description" content="to jest opis mojej strony"> <!--opis strony pod pozycjonowanie. Tytuł jest krótszy, opis może
+    być bardziej szczegółowy i dłuższy. Google bardzo często zmienia opisy-->
+</head>
+<body> <!--wszystko co tutaj piszę wyświetla się na stronie-->
+    <a href="https://onet.pl" target= "_blank">Onet</a>  <!-- target blank otworzy link w nowej karcie -->
+    <a href="#dol">Przejdź na dół strony</a>
+    <!-- # i identyfikator -->
+
+    <h1>Nagłówek h1 </h1>
+    <h2>Nagłówek h2</h2>
+    <h3>Nagłówek h3</h3>
+    <h4>Nagłówek h4</h4>
+    <h5>Nagłówek h5</h5>
+    <h6>Nagłówek h6</h6>  <!--shift + crtl left + strzałka w dół kopiuje hurtowo-->
+    <h1><u>Nagłówek h1</u></h1> 
+    <!-- h1*6 w emmecie daje mi od razu 6 linijek lub (h1>u)*6-->
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6> <!--h$*6-->
+    <h1>Nagłówek 1 <p></p>
+        plusdudddu
+    </h1>
+    <h2>Nagłówek 2</h2>
+    <h3>Nagłówek 3</h3>
+    <h4>Nagłówek 4</h4>
+    <h5>Nagłówek 5</h5>
+    <h6>Nagłówek 6</h6><!--h${Nagłówek$} *6-->
+    
+    <p><!--p to jest akapit-->
+        2 &lt; 1 &nbsp;&nbsp;
+        2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 <!--znaki encji. zawsze zaczyna się od znaku &--> 
+Lorem ipsum dolor sit amet consectetur, <br> <!--<br> to nowa linia bez akapitu w html 5. W starych wersjach <br/>-->
+adipisicing elit. Tempore laboriosam illum porro. Velit amet,
+   <p></p> doloribus maiores, sequi soluta voluptas ratione molestias inventore sapiente quia id error
+    <b> ab consequuntur eveniet iste? </b>
+    </p> <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sequi.</b> <!--f1 zaznaczenie + znacznik-->
+   <p></p> Hello World!
+
+
+
+
+   <ul>   <!--ctrl +d szuka tych samych znaczników i zmienia oba-->
+       <li>wiosna</li>
+       <li>lato</li>
+       <li>jesień</li>
+       <li>zima</li>
+   </ul> <!--lista punktowana-->
+   <ol>  <!--lista numerowana-->
+       <li>wiosna</li>
+       <li>lato
+           <ul>
+               <li>czerwiec</li>
+               <li><b>lipiec</b></li>
+               <li>sierpień</li>
+           </ul>
+       </li>
+       <li>jesień</li>
+       <li>zima</li>
+   </ol>
+   <a href="https://google.pl/">google</a> <!-- odnośnik do strony-->
+   
+   <br><b><a href="./zalaczniki/kontakt.html">kontakt</a></b>
+   <!-- ./ znak oznacza, że w bierzącym katalogu -->
+   <br><a href="mailto:r.brzegowy@gmail.com">r.brzegowy@gmail.com</a>
+   <!-- odnośnik do maila -->
+
+
+
+
+   <!--tabelki-->
+   <table border="1" id="dol">
+       <tr>
+           <td>1</td>
+           <td>2</td>
+           <td colspan="3">3</td>
+           <!-- <td>4</td>
+           <td>5</td> -->
+       </tr>
+       <tr>
+           <td>1</td>
+           <td rowspan="4">2</td>
+           <td>3</td>
+           <td>4</td>
+           <td>5</td>
+       </tr>
+           <tr>
+               <td>1</td>
+               <!-- <td>2</td> -->
+               <td>3</td>
+               <td>4</td>
+               <td>5</td>
+               
+           </tr>
+       
+       
+   </table>
+<!-- crtl + / daje skrót do komentarzy -->
+
+
+
+</body>
+</html>
