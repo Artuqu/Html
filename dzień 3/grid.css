@@ -1,0 +1,37 @@
+body{
+    background: lightblue;
+}
+main{
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-rows: 150px 700px 150px;
+    grid-template-columns: 200px 800px 200px; /*1fr rozdysponowuje resztę 
+    dostępnego miejsca. Może byc też 3fr ale będzie się dzieliła z drugim ft
+    np 3fr i 5fr*/
+    grid-template-areas: 
+        "header header header" 
+        "aside article right"
+        "footer footer footer";  
+}
+header{
+    background: grey;
+    grid-area: header;
+
+}
+aside{
+    background: lightcyan;
+    grid-area: aside;
+}
+article{
+    background: lightgoldenrodyellow;
+    grid-area: article;
+}
+#right{
+    background: lightgreen;
+    grid-area: right;
+}
+footer{
+    background: lightseagreen;
+    grid-area: footer;
+}
