@@ -1,0 +1,50 @@
+body{
+    background: white;
+}
+main{
+    margin: 0 auto;
+    width: 550px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "section"
+    "article"
+    "nav"
+    "footer" 
+
+}
+header{
+    background: white;
+    grid-area: header;
+}
+section{
+    background: white;
+    grid-area: section;
+}
+article{
+    background: white;
+    grid-area: article;
+}
+nav{
+    background: white;
+    grid-area: nav;
+}
+footer{
+    background: white;
+    grid-area: footer;
+}
+@media (min-width: 551px) and (max-width:800px){
+    main {
+        width: 100%;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "section section"
+        "article header"
+        "article nav"
+        "footer footer" 
+
+    }
+}
