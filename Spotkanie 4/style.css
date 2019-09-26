@@ -1,0 +1,60 @@
+body{
+    background: gray;
+}
+main{
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-rows: 60px 140px 500px 200px 200px 80px;
+    grid-template-columns: 400px 200px 200px 400px;
+    /* można było zrobić to eferami: 1fr 200px 200 px 1fr
+    lub 2fr 1fr 1fr 2fr */
+    grid-template-areas: 
+                        "ganav ganav ganav ganav"
+                        "header header header header"
+                        "article1 article2 article2 article3"
+                        "middle middle middle middle"
+                        "left left right right"
+                        "footer footer footer footer"
+
+}                      
+nav{
+background: lightblue;
+grid-area: ganav;
+}
+header{background: green;
+    grid-area: header;
+}
+article1{
+    background: yellowgreen;
+    grid-area: article1;
+    }
+article2{
+    background: maroon;
+    grid-area: article2;
+}    
+article3{
+    background: midnightblue;
+    grid-area: article3;
+}
+#middle{
+    background: lightcyan;
+    grid-area: middle;
+}
+#left{
+    background: lightslategray;
+    grid-area: left
+}
+#right{
+    background: lavender;
+    grid-area: right
+}
+footer{
+    background: lime;
+    grid-area: footer;
+}
+@media (max-width: 500px) {
+    main{
+        width:100%;
+    }
+}
